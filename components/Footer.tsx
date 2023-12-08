@@ -56,7 +56,13 @@ const Footer = () => {
         </div>
         <div className="border bg-gray-20"></div>
         <p className="regular-14 w-full text-center text-gray-30">
-          Developed by Norawich Dechsiri
+          <span className="block md:inline">
+            ©Copyright 2023. All rights reserved.
+          </span>
+          <span className="hidden md:inline"> | </span>
+          <span className="block md:inline">
+            Developed by Norawich Dechsiri
+          </span>
         </p>
       </div>
     </footer>
